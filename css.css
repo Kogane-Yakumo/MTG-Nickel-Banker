@@ -1,0 +1,45 @@
+body {
+    font-family:'Lora','Garamond', 'Athenian', sans-serif;
+    background-color: rgb(218, 194, 240);
+}
+
+h1.lab2 {
+    color:blueviolet;
+    font-size: 150%;
+}
+
+p {
+    text-indent: 24px;  
+    font-size: 130%;
+}
+
+h1 {  
+    font-size: 230%;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+#content {
+    border: dotted 3px #00aaff;
+}
+
+.img_center {
+    align-self: center;
+}
+
+div {
+    padding: 5px;
+    border: solid 1px #300050;
+    background-color: rgb(200, 188, 211);
+    margin-left: 15px;
+}
+
+div * {
+    margin-left: 10px;
+}
+
+.img_center {
+    float: right;
+}
