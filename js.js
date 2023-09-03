@@ -31,7 +31,4 @@ $("#activate").click(function () {
         sleep(70);
         // This is here so that we don't get yelled at by Scryfall for flooding their API with requests
     }
-    if (rotations == 0){
-        $("#output").html("You're all good!")
-    }
 })
