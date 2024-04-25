@@ -14,7 +14,7 @@ $("#activate").click(function () {
     var rotations = 0;
     for (let i = 0; i < deckCards.length; i++) {
         $.ajax({
-            url: "https://api.scryfall.com/cards/search?q=usd<0.06+" + deckCards[i].replaceAll(" ","-"),
+            url: "https://api.scryfall.com/cards/search?q=usd<0.06+(st%3Dcore+or+st%3Dexpansion)" + deckCards[i].replaceAll(" ","-"),
             type: "GET",
             dataType: "json",
             success: function(data) {
