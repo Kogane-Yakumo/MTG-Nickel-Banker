@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>The Nickel Format Banker</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="js.js" defer></script>
 </head>
@@ -10,11 +11,12 @@
     <h2>The Nickel Format Banker</h2>
     <div>
       <p><label for="decklist">Check your decklist for rotations. </label><button id="activate">   Submit</button></p>
+      <p>Paste your decklist from Cockatrice unannotated.</p>
       <textarea id="decklist" name="decklist" rows="28" cols="60"></textarea>
 		  <div id="output">
 			  <p>[Results will appear here.]</p>
 		  </div>
-      <a href="https://scryfall.com/search?q=usd%3C0.06+f%3Dvintage&order=released&as=grid&unique=cards">Need Replacements?</a>
+      <a href="https://scryfall.com/search?q=usd%3C0.06+(st%3Dcore+or+st%3Dexpansion)&order=released&as=grid&unique=cards">Need Replacements?</a>
     </div>
   </main>
 </body>
